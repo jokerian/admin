@@ -1,21 +1,12 @@
-
-# SEO
-title: Swiss Jekyll Theme
-description: A bold typographic theme inspired by Swiss design.
-
-# social
+title: Admin
+description: Jekyll Admin Site.
 social_link: twitter
-social_username: broccolini
-github_repo: athena # the GitHub repo name for your project
-github_username: broccolini
+social_username: jkrebian
+github_repo: admin
+github_username: jokerian
 theme_color: black
-
-# Theme
 remote_theme: 'internet-de-france/swiss'
 baseurl: '/admin'
-
-# Defaults
-
 defaults:
   -
     scope:
@@ -29,8 +20,7 @@ defaults:
       type: "posts"
     values:
       categories: ""
-
-# Stastic UI
+      
 remote_theme_layouts: 
   - ""
   - default
